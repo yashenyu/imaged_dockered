@@ -48,6 +48,7 @@ services:
     container_name: imaged-backend
     environment:
       GUAC_BASE: http://guacamole:8080
+      GUAC_PUBLIC_BASE: http://20.24.65.164:8443
       GUAC_USER: guacadmin
       GUAC_PASS: guacadmin
       GUAC_DEFAULT_CONN: Imaged

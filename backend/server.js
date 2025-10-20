@@ -9,6 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 const GUAC_BASE = process.env.GUAC_BASE || "http://20.24.65.164:8443";
+const GUAC_PUBLIC_BASE = process.env.GUAC_PUBLIC_BASE || GUAC_BASE; // Public URL for browser
 const GUAC_USER = process.env.GUAC_USER || "guacadmin";
 const GUAC_PASS = process.env.GUAC_PASS || "guacadmin";
 const GUAC_DEFAULT_CONN = process.env.GUAC_DEFAULT_CONN || "Imaged";
@@ -42,7 +43,8 @@ app.post('/api/connect', async (req, res) => {
     }
 
     // Step 3: Build direct RDP URL that opens the connection immediately
-    const clientUrl = `${GUAC_BASE}/guacamole/#/client/${connection.identifier}?token=${token}`;
+    // Use public URL so browser can access it
+    const clientUrl = `${GUAC_PUBLIC_BASE}/guacamole/#/client/${connection.identifier}?token=${token}`;
 
     res.json({ clientUrl });
   } catch (err) {
