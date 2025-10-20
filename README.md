@@ -214,6 +214,18 @@ Update the following files to customize content:
 
 For technical support or questions, please contact the development team.
 
+### Snapshots
+
+<img width="1820" height="886" alt="Screenshot 2025-10-21 012617" src="https://github.com/user-attachments/assets/d1b2dcef-8138-4344-a35b-fdf537392bee" />
+<img width="1816" height="789" alt="Screenshot 2025-10-21 012632" src="https://github.com/user-attachments/assets/1d68e5d4-a4c4-4010-9f12-95bda18b6b96" />
+<img width="1821" height="696" alt="Screenshot 2025-10-21 012641" src="https://github.com/user-attachments/assets/7d000f2d-942d-486e-b1e6-0b5721f14f13" />
+<img width="1821" height="727" alt="Screenshot 2025-10-21 012648" src="https://github.com/user-attachments/assets/8c220d28-be02-4be2-a604-edff83f8dcc7" />
+<img width="1573" height="691" alt="Screenshot 2025-10-21 012706" src="https://github.com/user-attachments/assets/47a52d08-5188-429e-9a34-e2bf504d12a7" />
+<img width="1825" height="891" alt="Screenshot 2025-10-21 012712" src="https://github.com/user-attachments/assets/1f371564-57a5-46de-9a30-6416107ab5c6" />
+<img width="1835" height="888" alt="Screenshot 2025-10-21 012724" src="https://github.com/user-attachments/assets/8f3779b1-a8f8-46ae-ae47-518641b9f598" />
+<img width="1827" height="891" alt="Screenshot 2025-10-21 012942" src="https://github.com/user-attachments/assets/b93857d6-6642-4784-a1c8-ea31a4710a76" />
+
+
 ## License
 
 This project is proprietary software. All rights reserved.
