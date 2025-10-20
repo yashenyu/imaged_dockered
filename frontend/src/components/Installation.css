@@ -1,0 +1,83 @@
+.installation {
+  background: #1a1a1a;
+}
+
+.download-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.download-card {
+  background: #2a2a2a;
+  border-radius: 16px;
+  padding: 3rem;
+  text-align: center;
+  border: 1px solid #404040;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.download-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+
+.card-icon {
+  color: #2563eb;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.download-card h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.download-card p {
+  color: #a0a0a0;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.download-btn {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.download-note {
+  color: #666;
+}
+
+.download-note small {
+  font-size: 0.9rem;
+}
+
+.download-footer-note {
+  text-align: center;
+  margin-top: 3rem;
+  color: #666;
+}
+
+.download-footer-note small {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 968px) {
+  .download-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .download-card {
+    padding: 2rem;
+  }
+}

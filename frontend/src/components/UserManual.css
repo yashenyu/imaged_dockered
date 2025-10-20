@@ -1,0 +1,59 @@
+.user-manual {
+  background: #2a2a2a;
+}
+
+.manual-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.manual-card {
+  background: #1a1a1a;
+  border-radius: 16px;
+  padding: 3rem;
+  text-align: center;
+  border: 1px solid #404040;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.manual-icon {
+  color: #2563eb;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-card h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.manual-card p {
+  color: #a0a0a0;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.btn-large {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.download-note {
+  color: #666;
+}
+
+.download-note small {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .manual-card {
+    padding: 2rem;
+  }
+}

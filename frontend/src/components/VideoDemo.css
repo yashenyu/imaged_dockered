@@ -1,0 +1,111 @@
+.video-demo {
+  background: #1a1a1a;
+}
+
+.video-content {
+  max-width: 70%;  /* Full width */
+  margin: 0 auto;
+}
+
+.video-player-wrapper {
+  position: relative;
+  width: 100%;
+  background: #000;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.video-thumbnail {
+  position: relative;
+  cursor: pointer;
+  background: #000;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+}
+
+.thumbnail-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.video-thumbnail:hover .thumbnail-image {
+  transform: scale(1.05);
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+  z-index: 2;
+}
+
+.video-thumbnail:hover .video-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.play-button {
+  width: 90px;
+  height: 90px;
+  background: rgba(255, 0, 0, 0.9);  /* YouTube red */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.video-thumbnail:hover .play-button {
+  transform: scale(1.15);
+  background: rgba(255, 0, 0, 1);
+}
+
+.play-icon {
+  font-size: 2.5rem;
+  color: white;
+  margin-left: 6px;
+}
+
+/* Video container for inline playback */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  background: #000;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .play-button {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .play-icon {
+    font-size: 2rem;
+  }
+}
